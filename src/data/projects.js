@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Zynetic CLI",
     description: "Zynetic CLI is a hypothetical product for automating project creation, environment setup, and integration.",
-    previewImg: "/images/Preview/zyneticPrev.png",
+    previewImg: "images/Preview/zyneticPrev.png",
     year: "2025",
     links: {
       demo: "https://sitewrku.github.io/Zynetic/",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Ore Breaker",
     description: "This project is a simple test web application that simulates ore mining, tool crafting, and inventory management.",
-    previewImg: "/images/Preview/oreBreakerPrev.png",
+    previewImg: "images/Preview/oreBreakerPrev.png",
     year: "2025",
     links: {
       demo: "https://sitewrku.github.io/OreBreaker/",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Mayo",
     description: "A weird little project about mayonnaise, made just for fun and to experiment with this kind of design.",
-    previewImg: "/images/Preview/MayoPrev.png",
+    previewImg: "images/Preview/MayoPrev.png",
     year: "2025",
     links: {
       demo: "https://ivanwuser.github.io/Mayo/",
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "Fecebak",
     description: "Fecebak is a humorous and quirky parody of Facebook, featuring the personal page of Petrovych, who shares stories about his life.",
-    previewImg: "/images/Preview/FecebakPrev.png",
+    previewImg: "images/Preview/FecebakPrev.png",
     year: "2025",
     links: {
       demo: "https://sitewrku.github.io/ReactPetrovich/",
@@ -40,9 +40,19 @@ export const projects = [
     }
   },
   {
+    title: "GlowCardEffect",
+    description: "Fecebak is a humorous and quirky parody of Facebook, featuring the personal page of Petrovych, who shares stories about his life.",
+    previewImg: "images/Preview/GlowCardPrev.png",
+    year: "2024",
+    links: {
+      demo: "https://sitewrku.github.io/GlowCardEffect",
+      github: "https://github.com/SitewrkU/GlowCardEffect",
+    }
+  },
+  {
     title: "TNoT",
     description: "Thousand Nights of Terror is a website (wiki) about a fictional game that revolves around surviving through different types of nights.",
-    previewImg: "/images/Preview/TNOTPrev.png",
+    previewImg: "images/Preview/TNOTPrev.png",
     year: "2024",
     links: {
       demo: "https://sitewrku.github.io/TNoT-Wiki",

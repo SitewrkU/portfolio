@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className="image">
-        <img src="/images/profilepic.png" alt="profilepic" className='profile-pic' />
+        <img src="images/profilepic.png" alt="profilepic" className='profile-pic' />
         <p><icons.FaLocationDot/> Ukraine, Lviv</p>
       </div>
       <main>

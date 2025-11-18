@@ -18,7 +18,7 @@ export default function About() {
 
   return (
     <div className="about" id='about'>
-      <h2 data-aos="fade"><icons.FaRegEye/> A little about me..</h2>
+      <h2 data-aos="fade"><icons.FaRegEye/> A little about me...</h2>
       <div className="about-text">
         <div className="about-el">
           <icons.FaHeart className='section-icon'/>
