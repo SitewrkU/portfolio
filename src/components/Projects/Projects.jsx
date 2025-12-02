@@ -53,8 +53,20 @@ export default function ProjectsSlider() {
               <p className="desc">{p.description}</p>
 
               <div className="links">
-                <a href={p.links.demo}><icons.FaCirclePlay/></a>
-                <a href={p.links.github}><icons.FaGithubSquare/></a>
+                <a 
+                  href={p.links.demo}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <icons.FaCirclePlay/>
+                </a>
+                <a 
+                  href={p.links.github}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <icons.FaGithubSquare/>
+                </a>
               </div>
             </div>
             

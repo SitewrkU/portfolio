@@ -41,7 +41,7 @@ export const projects = [
   },
   {
     title: "GlowCardEffect",
-    description: "Fecebak is a humorous and quirky parody of Facebook, featuring the personal page of Petrovych, who shares stories about his life.",
+    description: "Interactive card with neon glow and 3D tilt on cursor hover",
     previewImg: "images/Preview/GlowCardPrev.png",
     year: "2024",
     links: {
