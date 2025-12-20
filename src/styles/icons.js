@@ -35,12 +35,22 @@ import {
 } from "react-icons/ri";
 
 import { 
-  SiMongodb
+  SiMongodb,
+  SiTypescript,
 } from "react-icons/si";
 
 import { 
   BsTelegram 
 } from "react-icons/bs";
+
+import { 
+  TbHexagonLetterSFilled,
+  TbHexagonLetterAFilled,
+  TbHexagonLetterBFilled,
+  TbHexagonLetterCFilled,
+  TbHexagonLetterDFilled,
+  TbHexagonLetterFFilled,
+} from "react-icons/tb";
 
 const icons = {
   FaLocationDot,
@@ -70,8 +80,16 @@ const icons = {
   RiTailwindCssFill,
 
   SiMongodb,
+  SiTypescript,
 
   BsTelegram,
+
+  TbHexagonLetterSFilled,
+  TbHexagonLetterAFilled,
+  TbHexagonLetterBFilled,
+  TbHexagonLetterCFilled,
+  TbHexagonLetterDFilled,
+  TbHexagonLetterFFilled,
 }
 
 export default icons;
