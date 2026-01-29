@@ -51,6 +51,12 @@
   .hero{
     align-items: center;
     flex-direction: column;
+
+    main{
+      h2, h3{
+        text-align: center;
+      }
+    }
   }
 
   .arrowDown{

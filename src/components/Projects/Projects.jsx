@@ -4,6 +4,41 @@ import './projects.css'
 import icons from "../../styles/icons";
 import { projects } from "../../data/projects";
 
+const breakPoints = {
+  0: {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    slidesOffsetBefore: 20,
+    slidesOffsetAfter: 20
+  },
+  520: {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    slidesOffsetBefore: 40,
+    slidesOffsetAfter: 40
+  },
+  640: {
+    slidesPerView: 2,
+    spaceBetween: 20
+  },
+  768: {
+    slidesPerView: 2,
+    spaceBetween: 20
+  },
+  1024: {
+    slidesPerView: 3,
+    spaceBetween: 25
+  },
+  1280: {
+    slidesPerView: 3,
+    spaceBetween: 30
+  },
+  1440: {
+    slidesPerView: 4.5,
+    spaceBetween: 30
+  },
+}
+
 export default function ProjectsSlider() {
 
   return (
@@ -13,32 +48,7 @@ export default function ProjectsSlider() {
         className="Swiper" 
         spaceBetween={20}
         grabCursor={true}
-        breakpoints={{
-          0: {
-            slidesPerView: 1.1,
-            spaceBetween: 20
-          },
-          520: {
-            slidesPerView: 1.5,
-            spaceBetween: 20
-          },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20
-          },
-          768: {
-            slidesPerView: 2.5,
-            spaceBetween: 20
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 25
-          },
-          1280: {
-            slidesPerView: 3.5,
-            spaceBetween: 30
-          }
-        }}
+        breakpoints={breakPoints}
       >
         {projects.map((p, i) => (
           <SwiperSlide key={p.id}>

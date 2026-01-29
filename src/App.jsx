@@ -12,7 +12,7 @@ export default function App() {
     <>
       <GlobalTooltip content={tooltipContent} />
       <Header/>
-      <Hero/>
+      <Hero githuser={'SitewrkU'}/>
       <About setTooltipContent={setTooltipContent}/>
       <ProjectsSlider/>
       <Contact/>
