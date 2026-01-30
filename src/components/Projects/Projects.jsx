@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import './projects.css'
@@ -40,15 +41,26 @@ const breakPoints = {
 }
 
 export default function ProjectsSlider() {
+  const [slideRange, setSlideRange] = useState({ start: 1, end: 1 });
+
+  const handleSlideChange = (swiper) => {
+    const start = swiper.activeIndex + 1;
+    const visibleSlides = Math.floor(swiper.params.slidesPerView);
+    const end = Math.min(start + visibleSlides - 1, projects.length);
+    setSlideRange({ start, end });
+  };
 
   return (
     <section className="projects-section" id="projects">
       <h2>My Projects</h2>
+
       <Swiper 
         className="Swiper" 
         spaceBetween={20}
         grabCursor={true}
         breakpoints={breakPoints}
+        onSlideChange={handleSlideChange}
+        onSwiper={handleSlideChange}
       >
         {projects.map((p, i) => (
           <SwiperSlide key={p.id}>
@@ -83,6 +95,12 @@ export default function ProjectsSlider() {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      <p className="project-counter">
+        {slideRange.start === slideRange.end 
+          ? `${slideRange.start} / ${projects.length}` 
+          : `${slideRange.start}-${slideRange.end} / ${projects.length}`}
+      </p>
     </section>
   );
 }

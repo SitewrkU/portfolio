@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Zynetic CLI",
     description: "Zynetic CLI is a hypothetical product for automating project creation, environment setup, and integration.",
-    previewImg: "images/Preview/zyneticPrev.png",
+    previewImg: "images/Preview/ZyneticPrev.png",
     year: "2025",
     links: {
       demo: "https://sitewrku.github.io/Zynetic/",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Ore Breaker",
     description: "This project is a simple test web application that simulates ore mining, tool crafting, and inventory management.",
-    previewImg: "images/Preview/oreBreakerPrev.png",
+    previewImg: "images/Preview/OreBreakerPrev.png",
     year: "2025",
     links: {
       demo: "https://sitewrku.github.io/OreBreaker/",
@@ -37,6 +37,16 @@ export const projects = [
     links: {
       demo: "https://sitewrku.github.io/ReactPetrovich/",
       github: "https://github.com/SitewrkU/ReactPetrovich",
+    }
+  },
+  {
+    title: "FancyDark",
+    description: "ReFancyDark is a showcase website featuring a fictional faction from the imaginary game SprayPaint.",
+    previewImg: "images/Preview/FancyDarkPrev.png",
+    year: "2024",
+    links: {
+      demo: "https://sitewrku.github.io/ReFancyDark",
+      github: "https://github.com/SitewrkU/ReFancyDark",
     }
   },
   {

@@ -18,7 +18,7 @@ export default function Hero({ githuser }) {
       });
   }, [githuser])
   
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p className='loading'>Loading data...</p>;
 
   return (
     <div className="hero">
